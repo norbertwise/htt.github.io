@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="new2.css">
+</head>
+<body>
+<style>
+.essential{
+    font-size: 20px;
+}
+.rgbrgba {
+  background-color: rgba(200, 255, 0, 0.5);
+  color: rgb(0, 255, 0);
+  width: 50vw;
+  height: 50vh;
+  font-size: 2rem;
+  
+  
+  
+}
+
+.hsl-hsla {
+  width: 50vw;
+  height: 50vh;
+  color: hsl(0, 100%, 50%);
+  background-color: hsla(120, 100%, 50%, 0.7);
+  font-size: unset;
+  word-spacing: 5px;
+  letter-spacing: 2px;
+  line-height: 4rem;
+}
+h6{
+font-size: unset;
+  }
+
+ .box{
+    width: 100;
+    height: 100vh;
+    background: yellow;
+    position: relative;
+ }
+ .box .imgbox::before{
+        content: "";
+        position:absolute ;
+        width: 50%;
+        height: 100vh;
+        background:linear-gradient(315deg,#e91e63,#03a9f4);
+        z-index: 1;
+        mix-blend-mode: screen;
+
+ }
+
+ .box .imgbox{
+    width:50% ;
+    height: 100vh;
+    background:green;
+    object-fit: cover;
+}img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.grid {
+    display: grid;
+    
+    grid-template-columns: 200px 200px 200px;
+
+}
+
+
+
+
+
+
+
+
+</style>
+
+
+
+
+
+
+
+<script src="new2.js"></script>
+    
+<a href="contactus.png" downloads>downloads</a>
+
+<a href="Bob_Fitts_-_Proclaim_His_Power__281993_29__28Full_Disc_29.mp3" download>download1</a>
+
+<audio src="Bob_Fitts_-_Proclaim_His_Power__281993_29__28Full_Disc_29.mp3" controls>audio</audio>
+
+<div class="header"></div> 
+   <div class="banner"></div>
+
+<details><summary>more information</summary><p>this is additional information that can be collapsed or expanded</p></details>
+<div class="essential">
+ <div class="rgbrgba">  
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure veritatis cupiditate nobis corrupti explicabo hic quis eum pariatur voluptatibus ullam!</p>
+</div>
+
+<div class="hsl-hsla">
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas repellat dolorem commodi sit, obcaecati, et quos provident <em><b >maxime</b></em> officia qui  quisquam, labore aliquam fugit.</p>
+</div>
+
+<h6 style="color: blue;font-size: 100px;">unset</h6>
+
+</div>
+<section class="box">
+    <div class="imgbox"><img src="contactus.png" alt="">
+
+    </div>
+</section>
+
+<!-- <div class="gradient"></div>
+</section> -->
+
+<section class="grid">
+<div>ONE</div>
+<div>TWO</div>
+<div>THREE</div>
+
+</section>
+
+<h3>hello world</h3>
+
+
+</body>
+</html>
